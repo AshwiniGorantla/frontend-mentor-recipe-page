@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif:wght@400;700");
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Rose-white: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-grey: hsl(30, 18%, 87%);
+    --Wenge-brown: hsl(30, 10%, 34%);
+    --Dark-charcoal: hsl(24, 5%, 18%);
+    --font-outfit: "Outfit";
+    --font-YS: "Young+Serif";
+    --font-size: 1em;
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-raspberry: hsl(332, 51%, 32%);
+}
+body{
+    background-color: var(--Eggshell);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.recipe {
+    display: block;
+    margin: 100px auto 100px auto;
+    width: 560px;
+    height: auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 35px;
+    color: var(--Wenge-brown);
+    font-family: var(--font-YS);
+  }
+
+  .recipe-header {
+    font-size: 2.5em;
+    color: var(--Dark-charcoal);
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .preperation-div {
+    padding: 20px;
+    background-color: var(--Rose-white);
+    border-radius: 10px;
+}
+
+  .preperation {
+    color: var(--Dark-raspberry);
+    font-weight: bold;
+    margin: 0;
+  }
+  .outfit-family {
+    font-family: var(--font-outfit);
+  }
+
+  .ys-family {
+    font-family: var(--font-YS);
+  }
+
+  .details-header {
+    color: var(--Nutmeg);
+    font-weight: bold;
+    font-size: 1.75em;
+  }
+
+  ul, ol{
+    padding-left: 20px;
+  }
+
+  ul li, ol li {
+    padding-left: 1em;
+    margin-bottom: 10px;
+  }
+
+  /* ol li::marker {
+    color: hsl(30, 10%, 34%);
+    font-family: var(--font-outfit);
+    
+  } */
+  .floatLeft {
+    position: relative;
+    left:30px;
+  }
+  .floatRight {
+    position: absolute;
+    left: 50%;
+    color: var(--Nutmeg);
+    font-weight: bold;
+  }
+
+  hr {
+    border-top: 1px solid var(--Light-grey);
+  }
